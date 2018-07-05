@@ -1,0 +1,31 @@
+.Header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items:center;
+	background: lighten(#BAC7B9,18%);
+
+	&-nav {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items:flex-start;
+		padding: 10px 15px;
+	}
+	&-navItem {
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 16px;
+		color: #D28F28;
+		text-decoration: none;
+	}
+	&-logo {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items:flex-end;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+}
